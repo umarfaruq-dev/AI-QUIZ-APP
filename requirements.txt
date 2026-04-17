@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+motor
+pymongo
+python-dotenv
+pydantic
+
+groq
+
+
+pymupdf
+python-docx
+
+python-multipart
+fastapi-mail
+
+PyJWT
