@@ -23,3 +23,7 @@ app.include_router(stats_route.router, prefix="/api")
 @app.get("/")
 async def root():
     return {"status": "Backend running "}
+
+@app.api_route("/health", methods=["GET", "HEAD"])
+def health():
+    return {"status": "alive"}
